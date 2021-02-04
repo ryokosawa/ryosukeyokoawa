@@ -1,2 +1,0 @@
-# ryosukeyokoawa
-Ryosuke's website
