@@ -76,7 +76,7 @@ input, select, textarea {
 	#clock{
 		width: 100%;
 		position: absolute;
-		font-size: 2em;
+		font-size: 19pt;
 		color: white;
 		text-align: center;
 		font-family: 'Roboto', sans-serif;
@@ -2644,7 +2644,7 @@ input, select, textarea {
 			#clock{
 				width: 100%;
 				position: absolute;
-				font-size: 2em;
+				font-size: 10pt;
 				color: white;
 				text-align: center;
 				font-family: 'Roboto', sans-serif;
