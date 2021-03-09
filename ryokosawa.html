@@ -37,9 +37,6 @@
 							</ul>
 						</nav>
 					<!-- Date n Time -->
-						<p>
-						<script> document.write(new Date().toLocaleDateString()); </script>
-						</p>
 						<script>
 						function realtimeClock(){
 							var rtClock = new Date();
@@ -62,6 +59,9 @@
 						}</script>
 						<body onload="realtimeClock()">
 							<div class=main-container">
+								<p>
+								<script> document.write(new Date().toDateString()); </script>
+								</p>
 								<div id="clock"></div>
 							</div>
 						</body>
