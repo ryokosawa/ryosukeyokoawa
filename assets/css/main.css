@@ -72,6 +72,17 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* REAL TIME CLOCK */
+	#clock{
+		width: 100%;
+		position: absolute;
+		font-size: 9vw;
+		color: white;
+		text-align: center;
+		font-family: 'Roboto', sans-serif;
+		margin-top: 2;
+	}
+
 /* Basic */
 
 	html {
@@ -2629,5 +2640,17 @@ input, select, textarea {
 				#footer .copyright li:first-child {
 					margin-top: 0;
 				}
+		/* REAL TIME CLOCK */
+			#clock{
+				width: 100%;
+				position: absolute;
+				font-size: 9vw;
+				color: white;
+				text-align: center;
+				font-family: 'Roboto', sans-serif;
+				margin-top: 2;
+			}
+				
+				
 
 	}
