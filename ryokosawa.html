@@ -38,6 +38,7 @@
 						</nav>
 					<!-- Date n Time -->
 						<script>
+						function realtimeClock(){
 							var rtClock = new Date();
     
     							var hours = rtClock.getHours();
@@ -55,7 +56,7 @@
     							document.getElementById('clock').innerHTML = 
     								hours + " : " + minutes + " : " + seconds + " " + amPm;
     							var t = setTimeout(realtimeClock, 500);
-						</script>
+						}</script>
 						<body onload="realtimeClock()">
 							<div class=main-container">
 								<div id="clock"></div>
