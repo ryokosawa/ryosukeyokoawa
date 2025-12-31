@@ -2148,6 +2148,7 @@ input, select, textarea {
 
 		#nav ul li {
 			padding-left: 0;
+			text-align: center;
 		}
 
 			#nav ul li a {
@@ -2161,12 +2162,14 @@ input, select, textarea {
 				-webkit-transition: none;
 				-ms-transition: none;
 				transition: none;
+				text-align: center;
 			}
 
 				#nav ul li a span {
 					position: relative;
 					display: block;
 					font-size: 0.8em;
+					text-align: center;
 				}
 
 					#nav ul li a span:before {
@@ -2176,16 +2179,19 @@ input, select, textarea {
 						text-align: center;
 						width: 1.25em;
 						line-height: 1.75em;
+						text-align: center;
 					}
 
 				#nav ul li a.active {
 					background: rgba(0, 0, 0, 0.15);
 					box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
 					color: #fff;
+					text-align: center;
 				}
 
 					#nav ul li a.active span:before {
 						color: #e27689;
+						text-align: center;
 					}
 
 /* Footer */
