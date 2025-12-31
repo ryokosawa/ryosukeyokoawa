@@ -1808,7 +1808,7 @@ input, select, textarea {
 
 	.image-background-div {
 	    /* 1. Set the background image URL */
-	    background-image: url("your-image-url.jpg"); /* Replace with your image path */
+	    background-image: url("images/2D NHA Piezo1.jpg"); /* Replace with your image path */
 	
 	    /* 2. Scale the image to cover the entire container */
 	    background-size: cover;
