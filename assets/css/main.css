@@ -1806,6 +1806,25 @@ input, select, textarea {
 				width: auto;
 			}
 
+	.image-background-div {
+	    /* 1. Set the background image URL */
+	    background-image: url("your-image-url.jpg"); /* Replace with your image path */
+	
+	    /* 2. Scale the image to cover the entire container */
+	    background-size: cover;
+	
+	    /* 3. Prevent the image from repeating */
+	    background-repeat: no-repeat;
+	
+	    /* 4. Center the image within the div */
+	    background-position: center;
+	
+	    /* 5. Ensure the div has a height so the image can be seen */
+	    height: 400px; /* Adjust height as needed */
+	    width: 100%; /* Or set a specific width */
+		}
+
+
 /* List */
 
 	ul {
